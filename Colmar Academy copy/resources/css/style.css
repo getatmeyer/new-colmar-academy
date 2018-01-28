@@ -91,7 +91,6 @@ p {
 
 h1 {
   margin: 0;
-  text-align: left;
   font-size: 68px;
   padding: 24px;
   display: flex;
@@ -99,7 +98,7 @@ h1 {
   color: black;
 }
 .subp {
-  width: 58%;
+  width: 70%;
   margin-top: 24px;
 }
 /* SECTION TWO */
@@ -119,7 +118,6 @@ h1 {
   padding-top: 32px;
 }
 .rightsection {
-  border: solid 1px red;
   width: 40%;
   display: flex;
   float: right;
@@ -133,7 +131,6 @@ h1 {
 }
 .item img {
   height: 35%;
-  width: 35%;
   padding: 0 24px;
   display: flex;
   flex-direction: column;
@@ -155,6 +152,14 @@ h3 {
 }
 /* SECTION THREE */
 .middlesection {
+  width: 100%;
+  background-color: red;
   display: flex;
+}
+.startlearning {
+  display: flex;
+  color: red;
+  font-size: 50px;
   justify-content: center;
+
 }
