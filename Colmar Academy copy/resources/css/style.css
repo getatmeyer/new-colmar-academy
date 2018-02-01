@@ -98,8 +98,9 @@ h1 {
   color: black;
 }
 .subp {
-  width: 70%;
+  width: 90%;
   margin-top: 24px;
+  padding-bottom: 32px;
 }
 /* SECTION TWO */
 .section-two {
@@ -135,11 +136,9 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-.content {
 .content p {
   padding: 0 24px;
   color: red;
-
 }
 h3 {
   font-size: 52px;
@@ -152,14 +151,22 @@ h3 {
 }
 /* SECTION THREE */
 .middlesection {
-  width: 100%;
-  background-color: red;
-  display: flex;
+  padding: 32px 0;
+  background-color: lightgray;
 }
-.startlearning {
-  display: flex;
-  color: red;
-  font-size: 50px;
-  justify-content: center;
+.learn{
+  margin: 32px;
+  text-align: center;
+
+}
+.images {
+  padding: 0 32px;
+  border: solid 1px blue;
+}
+.image {
+}
+.imagecontain {
+}
+.textcontain {
 
 }
