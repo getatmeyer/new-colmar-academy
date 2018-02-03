@@ -182,6 +182,7 @@ h4 {
 }
 /* FOURTH SECTION */
 .fourthsection {
+  display: flex;
   text-align: center;
   padding: 32px 0;
 }
@@ -190,22 +191,19 @@ h4 {
   width: 55%;
 }
 .videosection video {
-  width: 100%;
 }
 .rightcolumn {
   width: 40%;
-  display: flex;
   float: right;
   flex-direction: column;
 }
-.rightsite{
+.rightsite {
     padding-top: 32px;
-    width: 100%;
+    width: 60%;
   }
 .rightsite img {
     height: 35%;
     padding: 0 24px;
-    display: flex;
     flex-direction: column;
   }
 .thesis-content {
