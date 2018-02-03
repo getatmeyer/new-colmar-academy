@@ -70,6 +70,9 @@ a {
 .learn {
   margin-top: 225px;
 }
+.images {
+  width: 100%;
+}
 p {
   margin-bottom: 30px;
   font-size: 37px;
@@ -151,22 +154,60 @@ h3 {
 }
 /* SECTION THREE */
 .middlesection {
+  text-align: center;
+  justify-content: center;
   padding: 32px 0;
   background-color: lightgray;
 }
-.learn{
+.learning {
+  padding-left: 100px;
   margin: 32px;
-  text-align: center;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 2000px;
 }
 .images {
-  padding: 0 32px;
-  border: solid 1px blue;
+  margin: 32px;
+  width: 530px;
+  height: 500px;
+  background-color: red;
 }
-.imagecontain {
+h4 {
+  padding-left: 16px;
+  margin: auto;
+  float: left;
+  font-size: 32px;
 }
-.textcontain {
+/* FOURTH SECTION */
+.fourthsection {
+  text-align: center;
+  padding: 32px 0;
+}
+.videosection {
+  padding-left: 24px;
+  width: 55%;
+}
+.videosection video {
+  width: 100%;
+}
+.rightcolumn {
+  width: 40%;
   display: flex;
-    flex-direction: row;
-
+  float: right;
+  flex-direction: column;
+}
+.rightsite{
+    padding-top: 32px;
+    width: 100%;
+  }
+.rightsite img {
+    height: 35%;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+  }
+.thesis-content {
+  line-height: 1rem;
 }
